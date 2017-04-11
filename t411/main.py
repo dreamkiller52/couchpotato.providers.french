@@ -19,11 +19,11 @@ class t411(TorrentProvider, MovieProvider):
 
     urls = {
         'test' : 'https://t411.ai',
-        'login' : 'https://api.t411.li/auth',
-        'login_check': 'https://api.t411.li/torrents/top/100',
+        'login' : 'https://api.t411.ai/auth',
+        'login_check': 'https://api.t411.ai/torrents/top/100',
         'detail' : 'https://www.t411.ai/torrents/?id=%s',
-        'search' : 'https://api.t411.li/torrents/search/%s?limit=200&cid=631',
-        'download' : 'https://api.t411.li/torrents/download/%s',
+        'search' : 'https://api.t411.ai/torrents/search/%s?limit=200&cid=631',
+        'download' : 'https://api.t411.ai/torrents/download/%s',
     }
 
     cat_ids = [
